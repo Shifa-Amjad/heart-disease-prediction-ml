@@ -150,7 +150,41 @@ The project was evaluated using:
 * ROC-AUC Score
 
 ---
+# 📸 Project Screenshots
 
+## 📊 Dataset Preview
+
+![Dataset Preview](images/dataset_preview.png)
+
+---
+
+## 🔥 Correlation Heatmap
+
+![Heatmap](images/heatmap.png)
+
+---
+
+## 🤖 Machine Learning Model Comparison
+
+![Model Comparison](images/model_comparison.png)
+
+---
+
+## 🎯 Confusion Matrix
+
+![Confusion Matrix](images/confusion_matrix.png)
+
+---
+
+## 📈 ROC Curve
+
+![ROC Curve](images/roc_curve.png)
+
+---
+
+## ⭐ Feature Importance
+
+![Feature Importance](images/feature_importance.png)
 # 📁 Repository Structure
 
 ```text
