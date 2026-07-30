@@ -1,43 +1,75 @@
 # ❤️ Heart Disease Prediction Using Machine Learning
 
-> **AI Internship Project at DecodeLabs**
+<div align="center">
 
-A Machine Learning project that predicts whether a patient is likely to have heart disease based on various medical attributes. This project demonstrates the complete machine learning workflow, including data preprocessing, exploratory data analysis (EDA), model training, evaluation, and comparison of multiple classification algorithms.
+### 🩺 AI Internship Project at DecodeLabs
 
----
+*Predicting Heart Disease using Supervised Machine Learning*
+<img width="1717" height="916" alt="image" src="https://github.com/user-attachments/assets/06e64a3c-a889-45b1-833a-b051d8f22145" />
 
-## 📌 Project Overview
 
-Heart disease is one of the leading causes of death worldwide. Early prediction can help healthcare professionals make timely decisions and improve patient outcomes.
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge\&logo=python)
+![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange?style=for-the-badge\&logo=scikitlearn)
+![Google Colab](https://img.shields.io/badge/Google-Colab-F9AB00?style=for-the-badge\&logo=googlecolab)
+![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
 
-In this project, a supervised machine learning approach is used to analyze patient medical data and classify whether a patient is likely to have heart disease.
-
----
-
-## 🎯 Objectives
-
-* Perform data preprocessing and cleaning.
-* Explore the dataset using visualizations.
-* Train multiple machine learning classification models.
-* Compare model performance.
-* Evaluate the best-performing model.
-* Build a deployment-ready machine learning model.
+</div>
 
 ---
 
-## 📂 Dataset Information
+# 📖 About the Project
 
-* **Dataset:** Heart Disease Dataset
-* **Rows:** 303
-* **Columns:** 14
-* **Target Variable:** `target`
+Heart Disease is one of the leading causes of death worldwide. Early prediction can help healthcare professionals identify high-risk patients and support better clinical decision-making.
 
-  * **0** → No Heart Disease
-  * **1** → Heart Disease
+This project applies **Supervised Machine Learning** techniques to predict whether a patient is likely to have heart disease based on various medical attributes.
+
+The project covers the complete Machine Learning pipeline, including:
+
+* Data Loading
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Data Preprocessing
+* Model Training
+* Model Evaluation
+* Performance Comparison
+* Model Saving
 
 ---
 
-## ⚙️ Technologies Used
+# 🎯 Project Objectives
+
+✔ Understand the Heart Disease Dataset
+
+✔ Perform Exploratory Data Analysis (EDA)
+
+✔ Build Multiple Machine Learning Models
+
+✔ Compare Model Performance
+
+✔ Select the Best Performing Model
+
+✔ Prepare the Model for Future Deployment
+
+---
+
+# 📂 Dataset Information
+
+| Attribute     | Value                 |
+| ------------- | --------------------- |
+| Dataset       | Heart Disease Dataset |
+| Records       | 303                   |
+| Features      | 13                    |
+| Target Column | target                |
+| Problem Type  | Binary Classification |
+
+### Target Values
+
+* **0 → No Heart Disease**
+* **1 → Heart Disease**
+
+---
+
+# 🛠 Technologies Used
 
 * Python
 * Google Colab
@@ -45,59 +77,81 @@ In this project, a supervised machine learning approach is used to analyze patie
 * NumPy
 * Matplotlib
 * Seaborn
-* Scikit-learn
+* Scikit-Learn
 * Joblib
 
 ---
 
-## 🤖 Machine Learning Models
+# 🤖 Machine Learning Models
 
-The following classification algorithms were implemented and compared:
+The following algorithms were trained and compared:
 
 * Logistic Regression
-* Decision Tree Classifier
-* Random Forest Classifier
+* Decision Tree
+* Random Forest
 * K-Nearest Neighbors (KNN)
 
 The best-performing model was selected based on prediction accuracy.
 
 ---
 
-## 📊 Project Workflow
+# 📊 Project Workflow
 
-1. Import Required Libraries
-2. Load Dataset
-3. Dataset Analysis
-4. Data Cleaning
-5. Exploratory Data Analysis (EDA)
-6. Data Preprocessing
-7. Train-Test Split
-8. Feature Scaling
-9. Model Training
-10. Model Evaluation
-11. Accuracy Comparison
-12. ROC Curve Analysis
-13. Feature Importance
-14. Save Trained Model
+```text
+Import Libraries
+        │
+        ▼
+Load Dataset
+        │
+        ▼
+Data Cleaning
+        │
+        ▼
+Exploratory Data Analysis
+        │
+        ▼
+Feature Engineering
+        │
+        ▼
+Train-Test Split
+        │
+        ▼
+Feature Scaling
+        │
+        ▼
+Model Training
+        │
+        ▼
+Model Evaluation
+        │
+        ▼
+Model Comparison
+        │
+        ▼
+ROC Curve
+        │
+        ▼
+Save Best Model
+```
 
 ---
 
-## 📈 Evaluation Metrics
+# 📈 Evaluation Metrics
 
-The project uses the following evaluation metrics:
+The project was evaluated using:
 
 * Accuracy Score
 * Confusion Matrix
 * Classification Report
 * Precision
 * Recall
-* F1-Score
+* F1 Score
 * ROC Curve
-* AUC Score
+* ROC-AUC Score
 
 ---
 
-## 📁 Repository Structure
+# 📁 Repository Structure
 
 ```text
 heart-disease-prediction-ml/
@@ -114,42 +168,63 @@ heart-disease-prediction-ml/
 
 ---
 
-## ▶️ How to Run the Project
+# 🚀 How to Run
 
-1. Clone the repository.
-2. Open the notebook in Google Colab or Jupyter Notebook.
-3. Upload the `heart.csv` dataset.
-4. Run all notebook cells in sequence.
-5. Review the generated visualizations and model evaluation results.
+### Clone Repository
 
----
+```bash
+git clone https://github.com/YOUR-USERNAME/heart-disease-prediction-ml.git
+```
 
-## 💡 Future Improvements
+### Install Dependencies
 
-* Hyperparameter tuning
-* Cross-validation
-* Web application deployment using Streamlit or Flask
-* Real-time patient prediction interface
-* Integration with cloud deployment platforms
+```bash
+pip install -r requirements.txt
+```
 
----
+### Run Notebook
 
-## 🙏 Acknowledgement
+Open:
 
-This project was completed as part of the **AI Internship at DecodeLabs**.
+```
+Heart_Disease_Prediction.ipynb
+```
 
-I sincerely thank **DecodeLabs** for providing valuable learning opportunities and practical exposure to Machine Learning through hands-on projects.
+Run all cells from top to bottom.
 
 ---
 
-## 👩‍💻 Developed By
+# 💡 Future Improvements
 
-**Shifa**
-
-BS Artificial Intelligence Student
-
-AI Intern at DecodeLabs
+* Hyperparameter Tuning
+* Cross Validation
+* Streamlit Web Application
+* Flask Deployment
+* Cloud Deployment
+* Real-time Prediction Interface
 
 ---
 
-## ⭐ If you found this project helpful, consider giving this repository a star!
+# 🙏 Acknowledgement
+
+This project was completed during my **AI Internship at DecodeLabs**.
+
+I sincerely thank **DecodeLabs** for providing valuable practical learning opportunities, real-world project experience, and continuous guidance throughout the internship.
+
+---
+
+# 👩‍💻 Developed By
+
+## **Shifa**
+
+**BS Artificial Intelligence Student**
+
+**AI Intern at DecodeLabs**
+
+---
+
+<div align="center">
+
+### ⭐ If you like this project, don't forget to Star this repository!
+
+</div>
